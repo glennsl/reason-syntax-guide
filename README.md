@@ -13,7 +13,7 @@ The guide is divided into these sections
 Keyword          | Usage                    | What is this?                                   | Where can I learn more?
 :---             | :---                     | :---                                            | :---
 `as`             | `{ foo, bar } as record` | Binds the item being destructured to a name     | [RWO](https://realworldocaml.org/v1/en/html/lists-and-patterns.html#terser-and-faster-patterns) - [OCaml Manual](http://caml.inria.fr/pub/docs/manual-ocaml/patterns.html)
-`as`             | `array 'a as 'this`      | A type alias                                    | [OCaml Manual](http://caml.inria.fr/pub/docs/manual-ocaml/types.html)
+`as`             | `array 'a as 'this`      | A type alias                                    | [OCaml Manual](https://caml.inria.fr/pub/docs/manual-ocaml/types.html#sec97)
 `fun`
 `let`
 `mutable`
