@@ -14,7 +14,7 @@ The guide is divided the sections
 ## Keywords
 
 Keyword          | Usage                    | What is this?                                   | Where can I learn more?
----              | ---                      | ---                                             | ---
+:---             | :---                     | :---                                            | :---
 `as`             | `{ foo, bar } as record` | Binds the item being destructured to a name     | [RWO](https://realworldocaml.org/v1/en/html/lists-and-patterns.html#terser-and-faster-patterns) - [OCaml Manual](http://caml.inria.fr/pub/docs/manual-ocaml/patterns.html)
 `as`             | `array 'a as 'this`      | A type alias                                    | [OCaml Manual](http://caml.inria.fr/pub/docs/manual-ocaml/types.html)
 `fun`
@@ -34,7 +34,7 @@ Keyword          | Usage                    | What is this?                     
 ## Operators and symbols
 
 Operator/Symbol      | Usage                     | What is this?                       | Where can I learn more?
- ---                 | ---                       | ---                                 | ---
+ :---                | :---                      | :---                                | :---
 `+.`, `*.`, etc.     | `3.1 +. 2.3`              | Floating point operators            | 
 `^`                  | `"Hello " ^ "world"`      | String concatenation                |
 `##`                 | `obj##property`           | Object (not record) property access | 
@@ -64,7 +64,7 @@ Operator/Symbol      | Usage                     | What is this?                
 <!-- Maybe a table is not the right format for this -->
 
 Syntax                      | Usage                     | What is this?                       | Where can I learn more?
----                         | ---                       | ---                                 | ---
+:---                        | :---                      | :---                                | :---
 `[<x>, <y>, ...<z>]`        | `let a = [1, 2, ...nums]` | Immutable list append               |
 `[<x>, <y>, ...<z>]`        | `let [b, c, rest] = a`    | List destructuring                  |
 `type <x> = | <y> | <z>`    |
