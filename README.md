@@ -28,7 +28,15 @@ Keyword          | Usage                    | What is this?                     
 `downto`
 `module`
 `module type`
-
+`ref`
+`true`
+`false`
+`if`
+`else`
+`for`
+`while`
+`open`
+`exception`
 
 
 ## Operators and symbols
@@ -53,6 +61,17 @@ Operator/Symbol      | Usage                     | What is this?                
 `===`
 `!=`
 `!==`
+`_`
+`land`
+`lor`
+`lxor`
+`lnot`
+`lsl`
+`lsr`
+`not`
+`&&`
+`||`
+
 
 ## Common user-defined operators?
 `>>=`
