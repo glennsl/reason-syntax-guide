@@ -8,8 +8,8 @@ If it doesn't, please make ~~an issue or~~ a PR.
 
 The guide is divided the sections
 * [Keywords](#keywords)
-* [Operators and symbols](#oeprators-and-symbols)
-* [Oher](#other)
+* [Operators and symbols](#operators-and-symbols)
+* [Constructs](#constructs)
 
 ## Keywords
 
@@ -59,7 +59,7 @@ Operator/Symbol      | Usage                     | What is this?                
 `!?`
 
 
-## Other
+## Constructs
 <!-- Alternate name: "Constructs"? -->
 <!-- Maybe a table is not the right format for this -->
 
