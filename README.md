@@ -45,14 +45,13 @@ Operator/Symbol      | Usage                     | What is this?                
 `##`                 | `obj##property`           | Object (not record) property access | 
 `|>`                 | `"hello" |> print_string` | Pipe operator                       |
 `@@`
-`=>` <!-- function, functor, pattern matching -->
-`|`
-` ' `                | ` 't `                    | Type parameter
-`` ` ``              | `` `Thing ``              | Polymorhpic variant
-`::`
-`<..>`
+`=>`    <!-- function, functor, pattern matching -->
+`|`     <!-- Variant and pattern separator -->
+` ' `   <!-- Type parameter: (`'t`) -->
+`` ` `` <!-- Polymorhpic variant: (`` `Thing ``) -->
+`::`    <!-- Labeled arguments -->
 `{..}`
-`...`
+`...`   <!-- Spread operator, array, object, destructuring -->
 `;`
 `==`
 `===`
@@ -76,8 +75,6 @@ Operator/Symbol      | Usage                     | What is this?                
 
 
 ## Constructs
-<!-- Alternate name: "Constructs"? -->
-<!-- Maybe a table is not the right format for this -->
 
 Syntax                      | Usage                     | What is this?                       | Where can I learn more?
 :---                        | :---                      | :---                                | :---
@@ -90,9 +87,10 @@ Syntax                      | Usage                     | What is this?         
 `{. <x> }`
 `{ "<x>": <y> }`
 `[| <x>, <y> |]`
-`[@@...]`
-`[%...]`
+`[@@...]` <!-- Attribute -->
+`[%...]` <!-- Extension node -->
 `/* ...*/`
 `<x> ? <y> : <z>`
-`(<x>, <y>)`
-`module <X> (<Y>: <Z>) => ...`
+`(<x>, <y>)` <!-- Tuple -->
+`module <X> (<Y>: <Z>) => ...`<!-- Functor -->
+`<..>`  <!-- JSX element -->
