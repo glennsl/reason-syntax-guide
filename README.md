@@ -1,14 +1,11 @@
 # reason-syntax-guide
 
-This guide aims to quickly answer two questions you might get when you encounter unfamiliar syntax in Reason:
-1. What is this?
-2. Where can I learn more?
+This guide aims to quickly answer two questions you might get when you encounter unfamiliar syntax in Reason: What is this And where can I learn more? If it doesn't, please make ~~an issue or~~ a PR.
 
-If it doesn't, please make ~~an issue or~~ a PR.
-
-The guide is divided the sections
+The guide is divided into these sections
 * [Keywords](#keywords)
 * [Operators and symbols](#operators-and-symbols)
+* [Common user-defined operators](#common-user-defined-operators)
 * [Constructs](#constructs)
 
 ## Keywords
@@ -73,7 +70,7 @@ Operator/Symbol      | Usage                     | What is this?                
 `||`
 
 
-## Common user-defined operators?
+## Common user-defined operators
 `>>=`
 `!?`
 
