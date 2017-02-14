@@ -67,6 +67,7 @@ Operator/Symbol      | Usage                     | What is this?                
 `not`
 `&&`
 `||`
+`:=`
 
 
 ## Common user-defined operators
