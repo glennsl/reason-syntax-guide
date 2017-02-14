@@ -79,13 +79,13 @@ Operator/Symbol      | Usage                     | What is this?                
 
 Syntax                      | Usage                     | What is this?                       | Where can I learn more?
 :---                        | :---                      | :---                                | :---
-`[<x>, <y>, ...<z>]`        | `let a = [1, 2, ...nums]` | Immutable list append               |
-`[<x>, <y>, ...<z>]`        | `let [b, c, rest] = a`    | List destructuring                  |
-`type <x> = | <y> | <z>`    |
-`fun <x> => ...`            |
+`[a, b, ...c]`        | `let a = [1, 2, ...nums]` | Immutable list append               |
+`[_, _, ..._]`        | `let [b, c, rest] = a`    | List destructuring                  |
+`type _ = | _ | _`    |
+`fun ⁔ => ...`            |
 `switch <x> { | <y> => ...` |
 `{..}`
-`{. <x> }`
+`{. 	⁔ }`
 `{ "<x>": <y> }`
 `[| <x>, <y> |]`
 `[@@...]` <!-- Attribute -->
